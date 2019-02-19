@@ -25,6 +25,7 @@ contract('Example', (accounts) => {
   })
 
   // Your tests here...
+})
 ```
 
 ### mine
