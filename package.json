@@ -1,0 +1,30 @@
+{
+  "name": "sol-time-machine",
+  "version": "1.0.0",
+  "description": "Block manager library for Solidity tests",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "js",
+    "solidity",
+    "test",
+    "testing",
+    "unit test",
+    "block management"
+  ],
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwalintukan/sol-time-machine.git"
+  },
+  "author": "Deric Walintukan <deric.walintukan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwalintukan/sol-time-machine/issues"
+  },
+  "homepage": "https://github.com/dwalintukan/sol-time-machine#readme"
+}
