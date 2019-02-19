@@ -8,12 +8,14 @@ npm install sol-time-machine
 
 ## Usage
 ```js
-// test.js
 const TimeMachine = require('sol-time-machine')
+const timeMachine = new TimeMachine(global.web3)
+```
 
+### snapshot/revert
+```js
+// test.js
 contract('Example', (accounts) => {
-  const timeMachine = new TimeMachine(global.web3)
-
   beforeEach(async () => {
     await timeMachine.snapshot
   })
@@ -23,4 +25,16 @@ contract('Example', (accounts) => {
   })
 
   // Your tests here...
+```
+
+### mine
+```js
+// advance 10 blocks
+await timeMachine.mine(10)
+```
+
+### mineTo
+```js
+// advance to block number 10
+await timeMachine.mineTo(10)
 ```
