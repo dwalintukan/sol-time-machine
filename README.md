@@ -17,11 +17,11 @@ const timeMachine = new TimeMachine(global.web3)
 // test.js
 contract('Example', (accounts) => {
   beforeEach(async () => {
-    await timeMachine.snapshot
+    await timeMachine.snapshot()
   })
   
   afterEach(async () => {
-    await timeMachine.revert
+    await timeMachine.revert()
   })
 
   // Your tests here...
