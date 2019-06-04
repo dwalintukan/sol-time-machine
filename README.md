@@ -39,3 +39,9 @@ await timeMachine.mine(10)
 // advance to block number 10
 await timeMachine.mineTo(10)
 ```
+
+### increaseTime
+```js
+// advances 1 block and sets the time to current time + 1000 seconds
+await timeMachine.increaseTime(1000)
+```
