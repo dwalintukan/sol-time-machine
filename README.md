@@ -3,7 +3,7 @@ Block manager for Solidity tests
 
 ## Install
 ```bash
-npm install sol-time-machine
+npm install --save-dev sol-time-machine
 ```
 
 ## Usage
